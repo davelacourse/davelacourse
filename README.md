@@ -12,6 +12,10 @@ Au début de ma carrière, j'ai été consultant en développement Web. J'ai ens
 
 <img src="assets/expertise.svg" alt="Jeux vidéo et réalité virtuelle : Unity, C#, réalité virtuelle, Meta Quest, autres plateformes XR · Langages : C#, Python, C++, Java · Web et données : JavaScript, ASP.NET, HTML/CSS, SQL" width="100%">
 
+## Activité
+
+<img src="https://raw.githubusercontent.com/davelacourse/davelacourse/output/serpent.svg" alt="Serpent qui parcourt et mange les carrés de mon graphique de contributions" width="100%">
+
 ## Mes cours
 
 <p align="center">
