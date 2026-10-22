@@ -1,0 +1,33 @@
+# Génère chaque nuit l'animation du serpent qui mange le graphique de contributions.
+# Le résultat (serpent.svg) est publié dans la branche « output » du dépôt.
+name: Serpent des contributions
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # tous les jours vers 2 h, heure du Québec
+  workflow_dispatch:       # permet de le lancer à la main (onglet Actions)
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Générer l'animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/serpent.svg?color_snake=#39FF6A&color_dots=#0b1f12,#0e4429,#006d32,#26a641,#39d353
+
+      - name: Publier dans la branche output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
