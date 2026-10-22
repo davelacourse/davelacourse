@@ -17,7 +17,7 @@ Au début de ma carrière, j'ai été consultant en développement Web. J'ai ens
 <p align="center">
   <a href="https://github.com/Cours-Realite-Virtuelle-CegepTR"><img src="assets/cours-vr.svg" alt="420-526-RI Réalité virtuelle — voir l'organisation GitHub" width="49%"></a>
   <a href="https://github.com/Cours-Programmation-Env-Graphique"><img src="assets/cours-sf3.svg" alt="420-SF3-RE Développement d'applications dans un environnement graphique — voir l'organisation GitHub" width="49%"></a>
-  <a href="#mes-cours"><img src="assets/cours-426.svg" alt="420-426-RI Programmation – Jeux – Simulations (organisation à venir)" width="49%"></a>
+  <a href="https://github.com/Cours-Jeu-Video-CegepTR"><img src="assets/cours-426.svg" alt="420-426-RI Programmation – Jeux – Simulations — voir l'organisation GitHub" width="49%"></a>
   <a href="#mes-cours"><img src="assets/cours-sf4.svg" alt="420-SF4-RI Projet d'intégration en sciences, informatique et mathématiques" width="49%"></a>
 </p>
 
